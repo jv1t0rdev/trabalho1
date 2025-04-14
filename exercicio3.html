@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensagem Simples</title>
+  <style>
+    .botao {
+      font-size: 19px;
+    }
+  </style>
+</head>
+<body>
+
+  <center>
+    <button id="meuBotao" class="botao">Clique para ver a mensagem</button>
+    <p id="mensagem"></p> <!-- Aqui a mensagem vai aparecer -->
+  </center>
+
+  <script>
+    // Quando o botão for clicado, esta função será executada
+    document.getElementById("meuBotao").onclick = function() {
+      document.getElementById("mensagem").innerText = "Bem-vindo! Você está indo muito bem! 😊";
+    }
+  </script>
+
+</body>
+</html>
